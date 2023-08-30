@@ -20,7 +20,8 @@
 
 html,
 body {
-  max-width: 1540px;
+  max-width: 1600px;
+  
   height: 100vh;
   margin: auto;
   background-color: var(--backgrond);
@@ -419,5 +420,10 @@ li {
 
     background-size: 110%;
   }
-
+  
+}
+@media (max-width:1920px){
+  html,body{
+    max-width: 100%;
+  }
 }
